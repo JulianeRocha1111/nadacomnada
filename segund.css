@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url('f282a914c00985cc388c17066aedbf98.gif') no-repeat center center fixed; 
+    background-size: cover; 
+    font-size:25px;
+}
+
+.timeline {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center; 
+    border-left: 3px solid #e63946;
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.big-love {
+    font-size: 36px; 
+    font-weight: bold; 
+}
+
+.question {
+    margin-top: 30px;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.choices {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-yes {
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn-no {
+    background-color: #f44336;
+    color: white;
+}
+
+.response {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #e63946;
+}
+
+.floating-hearts {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: float 5s infinite;
+}
+
+@keyframes float {
+    0% {bottom: 0;}
+    50% {bottom: 200px;}
+    100% {bottom: 0;}
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 20px; 
+}
+
+video {
+    width: 35%; 
+    margin: 5px; 
+    border-radius: 8px; 
+}
